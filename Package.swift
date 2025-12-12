@@ -14,5 +14,4 @@ let package = Package(
             name: "nudge",
             dependencies: [],
             path: "Sources"
-    ]
-)
+        ))
