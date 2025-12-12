@@ -12,7 +12,7 @@ struct NudgeApp {
         app.delegate = delegate
         
         // Run the application
-        app.run()
+NSApplication.shared.run() 
     }
 }
 
