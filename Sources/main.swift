@@ -47,6 +47,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         mainWindow.contentView = contentView
         
         self.window = mainWindow
+
+                // Setup Notch Controller
+        let notchVC = NotchViewController()
+        notchVC.view.frame = NSRect(x: 0, y: 0, width: 400, height: 50)
+        self.window?.contentView?.addSubview(notchVC.view)
     }
 }
 
