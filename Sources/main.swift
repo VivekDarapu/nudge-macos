@@ -2,7 +2,6 @@ import Foundation
 import AppKit
 
 /// Main entry point for the Nudge macOS application
-@main
 struct NudgeApp {
     static func main() {
         // Initialize the application
@@ -50,3 +49,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         self.window = mainWindow
     }
 }
+
+// Entry point
+NudgeApp.main()
