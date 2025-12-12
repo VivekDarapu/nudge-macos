@@ -14,11 +14,5 @@ let package = Package(
             name: "nudge",
             dependencies: [],
             path: "Sources"
-        ),
-        .testTarget(
-            name: "nudge-tests",
-            dependencies: ["nudge"],
-            path: "Tests"
-        )
     ]
 )
