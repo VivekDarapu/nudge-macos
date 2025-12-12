@@ -6,12 +6,11 @@ let package = Package(
     platforms: [
         .macOS(.v13)
     ],
-    dependencies: [
-        // Add dependencies here
-    ],
     targets: [
         .executableTarget(
             name: "nudge",
             dependencies: [],
             path: "Sources"
-        ))
+        )
+    ]
+)
